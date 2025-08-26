@@ -1,5 +1,5 @@
 # Lunes 自动登录（GitHub Actions + Telegram 通知）
-
+#### 在https://betadash.lunes.host 注册账号，选择128M,512M,free，仅有一个对公网端口. 在进入container后，start后，选择Alpine系统，3.22的，进入系统后，> apk update && apk add wget curl bash 。 节点脚本用勇哥一键脚本：https://github.com/yonggekkk/ArgoSB 。选择一个类型，输入端口。一键运行即可。
 本项目通过 **GitHub Actions** 自动登录 [Lunes 控制台](https://ctrl.lunes.host/auth/login)，并将结果通过 **Telegram Bot** 通知。
 
 ---
@@ -56,7 +56,7 @@
 ## ✅ 完成
 配置完成后，你可以立即手动运行工作流，或等待定时任务自动运行。
 
-### login.js有两个page.locator需要修改为自己的/XXXX,登录后在地址栏中。
+### login.js有两个page.locator需要修改为自己的/XXXX,登录VPS的pterodactyl面板后在地址栏中。
 - page.locator('a[href="/server/XXXXX"]')
 
 ### 工作流的schedule定时启动时间，尽量该不一样，都一样容易被封。可以GPT问时间设置。
