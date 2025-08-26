@@ -1,5 +1,5 @@
 # Lunes 自动登录（GitHub Actions + Telegram 通知）
-#### 在https://betadash.lunes.host 注册账号，选择128M,512M,free，仅有一个对公网端口. 在进入container后，start后，选择Alpine系统，3.22的，进入系统后，> apk update && apk add wget curl bash 。 节点脚本用勇哥一键脚本：https://github.com/yonggekkk/ArgoSB 。选择一个类型，输入端口。一键运行即可。
+#### 在https://betadash.lunes.host 注册账号，选择128M,512M,free，仅有一个对公网端口. 在进入container后，start后，选择Alpine系统，3.22的，进入系统后，` apk update && apk add wget curl bash ` 节点脚本用勇哥一键脚本：https://github.com/yonggekkk/ArgoSB 。选择一个类型，输入端口(vps域名后那个端口）。一键运行即可。
 本项目通过 **GitHub Actions** 自动登录 [Lunes 控制台](https://ctrl.lunes.host/auth/login)，并将结果通过 **Telegram Bot** 通知。
 
 ---
