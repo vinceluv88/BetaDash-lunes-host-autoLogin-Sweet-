@@ -59,7 +59,10 @@
 ## 有两个page.locator需要修改为自己的/XXXX,登录后在地址栏中。
 - page.locator('a[href="/server/XXXXX"]')
 
-## 定时启动时间，尽量该不一样，一样容易被封。
+## 工作流的schedule定时启动时间，尽量该不一样，都一样容易被封。可以GPT问时间设置。
+- schedule:
+  
+    - cron: "0 19 * * *"  # GitHub 使用 UTC，这里是 UTC 19:00 ≈ 亚洲/曼谷 02:00
 
 
 
