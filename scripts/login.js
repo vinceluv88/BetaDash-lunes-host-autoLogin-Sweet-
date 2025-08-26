@@ -111,7 +111,7 @@ async function main() {
       await notifyTelegram({ ok: true, stage: '登录成功', msg: `当前 URL：${url}`, screenshotPath: spAfter });
 
       // **进入服务器详情**
-      const serverLink = page.locator('a[href="/server/1141ded6"]');
+      const serverLink = page.locator('a[href="/server/dbcf9361"]');
       await serverLink.waitFor({ state: 'visible', timeout: 20_000 });
       await serverLink.click({ timeout: 10_000 });
 
