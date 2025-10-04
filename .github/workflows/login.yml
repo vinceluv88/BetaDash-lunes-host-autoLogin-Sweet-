@@ -1,4 +1,4 @@
-name: Lunes Auto Login(Sweet-Node6-US)
+name: Lunes Auto Login(Sweet-Node2-US)
 
 on:
   workflow_dispatch:
